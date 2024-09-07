@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    font-family: Raleway, serif;
+    background: linear-gradient(90deg, #04182a 26%, #000000 74%);
+}
+
+p {
+    color: white;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active {
+    color: gray;
+}
+
+.navbar-brand img{
+    width: 45px;
+}
+
+.navbar-toggler {
+    background-color: grey;
+}
+
+.sidebar {
+    color: white;
+    border-color: white;
+    border-style: groove;
+    background-color: #04182a;
+}
+
+.card {
+    color: black;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.slide-text,
+.footer-text {
+    color: white;
+    margin: auto auto;
+}
+
+footer {
+    background-color: #212529;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+@keyframes call {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
